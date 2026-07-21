@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sample_project"
+version = "0.1.0"
+description = "A tiny example Python project"
+authors = [ { name = "Your Name" } ]
+dependencies = []
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-q"
+testpaths = ["tests"]
